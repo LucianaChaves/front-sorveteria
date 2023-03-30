@@ -1,0 +1,109 @@
+@font-face {
+    src: url('/Parisienne/Parisienne-Regular.ttf');
+    font-family: 'Parisienne';    
+    font-weight: normal;
+} 
+
+/* Define o estilo padrão para o corpo da página */
+body {
+	font-family: 'Parisienne', cursive;
+	background-color: #f5f5f5;
+	margin: 0;
+	padding: 0;
+}
+
+/* Define o estilo do cabeçalho */
+header {
+	background-color: #ff6666;
+	padding: 10px;
+	color: #fff;
+}
+
+/* Define o estilo do título do cabeçalho */
+header h1 {
+	margin: 0;
+	font-family: 'Pacifico', cursive;
+}
+
+/* Define o estilo da navegação */
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+/* Define o estilo da seção */
+section {
+	padding: 20px;
+	margin: 20px 0;
+	background-color: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+section h2 {
+	margin-top: 0;
+	color: #ff6666;
+}
+
+/* Define o estilo do rodapé */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+/* Define o estilo das cores dos elementos */
+h1, h2, h3, h4, h5, h6, p, a {
+	color: #ff6666;
+}
+
+button {
+	background-color: #ff6666;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #fff;
+	color: #ff6666;
+}
+
+/* Define o estilo das imagens dos sorvetes */
+.sorvete {
+	width: 100%;
+	max-width: 250px;
+	display: block;
+	margin: 20px auto;
+	border-radius: 10px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+/* Define o estilo das cores de fundo dos elementos */
+#sabores {
+	background-color: #ffdab9;
+}
+
+#precos {
+	background-color: #ffe4e1;
+}
+
+#contato {
+	background-color: #b0e0e6;
+}
